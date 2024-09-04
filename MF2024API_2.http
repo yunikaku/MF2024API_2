@@ -1,0 +1,6 @@
+@MF2024API_2_HostAddress = http://localhost:5264
+
+GET {{MF2024API_2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

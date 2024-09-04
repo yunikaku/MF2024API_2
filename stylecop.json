@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "rules": {
+      "documentationRules": {
+        "enabled": true,
+        "rules": {
+          "SA1600": {"enabled": false},
+          
+          "SA1601": false, // Partial elements should be documented
+          "SA1101": false, // Prefix local calls with this
+          "SA1200": false, // Using directive must appear within a namespace declaration
+          "SA1400": false, // Access modifier must be declared
+          "SA1629": false, // Documentation text should end with a period
+          "SA1633": false, // File should have header
+          "SA1642": false // Constructor summary documentation must begin with standard text
+        }
+      }
+  }
+}
